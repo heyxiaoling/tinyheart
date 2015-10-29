@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TinyHeart</title>
+	<style>
+	body{
+		margin:0;
+		padding:10px 0 0 0;
+	}
+	.allbg{
+		width:800px; margin:0 auto; height:600px;
+	}
+	#allcanvas{
+		position:relative;
+		width:800px;
+		height:600px;
+	}
+	#canvas1{
+		position:absolute;
+		left:0px;
+		top:0px;
+		z-index:1;
+	}
+	#canvas2{
+		position:absolute;
+		left:0px;
+		top:0px;
+		z-index:0;
+	}
+	</style>
+</head>
+<body>
+	<div class="allbg">
+		<div id="allcanvas">
+			<canvas id="canvas1" width="800" height="600"></canvas>
+			<canvas id="canvas2"  width="800" height="600"></canvas>
+		</div>
+	</div>
+
+	<script type="text/javascript"  src="res/main.js"></script>
+	<script type="text/javascript"  src="res/common/commonFunctions.js"></script>
+	<script type="text/javascript"  src="res/common/background.js"></script>
+	<script type="text/javascript"  src="res/common/ane.js"></script>
+	<script type="text/javascript"  src="res/common/fruit.js"></script>
+	<script type="text/javascript"  src="res/common/mom.js"></script>
+	<script type="text/javascript"  src="res/common/collision.js"></script>
+	<script type="text/javascript"  src="res/common/baby.js"></script>
+</body>
+</html>
